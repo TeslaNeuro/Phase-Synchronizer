@@ -3,6 +3,9 @@
 ## Project Overview
 The Phase synchronizer is a system designed to detect, synchronize, and adjust the phase of two arbitrary signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems such as neural signal processing of ENG/ECG bio-signals. The goal for this project is simplicity and cost-effectiveness, allowing quick hardware integration.
 
+## Typical considerations
+It’s essential to maintain stability in the system after synchronization. Oscillations, noise, or disturbances can lead to drifting of the phase relationship, so a robust feedback mechanism may be needed to keep the signals synchronized over time.
+
 ## Key Features
 - Phase Detection: Automatically identifies the phase difference between two signals.
 - Phase Synchronization: Aligns the phase of the second signal with the first, ensuring phase lock.
