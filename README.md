@@ -27,3 +27,12 @@ The system works by first detecting the phase difference between two incoming si
 Communication Systems: Maintaining signal coherence in wireless and wired transmissions.
 Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
 Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
+
+## License
+
+This project includes firmware, software, hardware designs, and integration components and is licensed under the [Custom License Agreement](./LICENSE).
+
+- **Non-Commercial Use**: You may use, modify, and distribute this project for non-commercial purposes.
+- **Commercial Use**: To use this project for commercial purposes, please contact the author at [arshiakeshvariasl@gmail.com] to obtain full permission rights and discuss licensing terms.
+
+See the [LICENSE](./LICENSE) file for full licensing details.
