@@ -21,7 +21,7 @@ It’s essential to maintain stability in the system after synchronization. Osci
 - Digital Signal Processing (DSP): For precise phase detection and control.
 
 ## How It Works
-The system works by first detecting the phase difference between two incoming signals. A control loop then generates the necessary adjustments to bring the signals into phase alignment without changing their frequency. This is particularly useful for applications like communication systems, audio processing, and time-sensitive data transmission.
+The system works by first detecting the phase difference between two incoming signals. A control loop then generates the necessary adjustments to bring the signals into phase alignment without changing their frequency. This is particularly useful for applications like communication systems, audio processing, biomedical ENG/ECG analysis, and time-sensitive data transmission.
 
 ## Applications
 Communication Systems: Maintaining signal coherence in wireless and wired transmissions.
