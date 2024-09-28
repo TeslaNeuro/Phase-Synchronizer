@@ -28,6 +28,9 @@ Communication Systems: Maintaining signal coherence in wireless and wired transm
 Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
 Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
 
+## Example Proof of Concept Prototype
+![image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
+
 ## License
 
 This project includes firmware, software, hardware designs, and integration components and is licensed under the [Custom License Agreement](./LICENSE).
