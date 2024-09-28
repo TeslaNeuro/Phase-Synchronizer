@@ -1,17 +1,20 @@
-# Automatic-Phase-Shift-Controller
+# Phase synchronizer
 
 ## Project Overview
-The Automatic Phase Shift Controller is a system designed to detect, synchronize, and adjust the phase of two arbitrary signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems.
+The Phase synchronizer is a system designed to detect, synchronize, and adjust the phase of two arbitrary signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems such as neural signal processing of ENG/ECG bio-signals. The goal for this project is simplicity and cost-effectiveness, allowing quick hardware integration.
 
 ## Key Features
 - Phase Detection: Automatically identifies the phase difference between two signals.
 - Phase Synchronization: Aligns the phase of the second signal with the first, ensuring phase lock.
 - Phase Shift Correction: Adjusts any misaligned signals, resolving phase errors effectively.
 - Frequency Integrity: Maintains the frequency of both signals during synchronization.
+- Closed-loop control: Continuously monitors and corrects phase shifts to maintain stable synchronization over time.
 
 ## Tools and Technologies
-- MATLAB/Simulink: Used for simulating and analyzing the phase synchronization process.
-- Phase-Locked Loop (PLL): A core mechanism for automatic phase correction.
+- Proteus: Used for simulating and analyzing the phase synchronization process for prototyping purposes.
+- KiCAD: Used for designing the main circuit and sub-circuits, as well as BoM, PCB, Schematic and Mechanical drawings.
+- Arduino IDE: Used for writing basic core embedded firmware and algorithms in C/C++ for simple microcontrollers.
+- Analog Adjustable Filters: A core mechanism for frequency independent phase correction.
 - Digital Signal Processing (DSP): For precise phase detection and control.
 
 ## How It Works
