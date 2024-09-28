@@ -1,3 +1,9 @@
+/*
+    Author: Arshia Keshvari
+    Date: 09/28/2024
+    Custom License Protected
+*/
+
 #include <SPI.h>
 
 const int CS_pin_1 = 10; // Chip select pin for signal A
