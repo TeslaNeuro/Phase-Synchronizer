@@ -31,8 +31,8 @@ Through precise time delay measurement and phase shift mapping, the system shoul
 ## Things to consider in your application
 
 Not every implementation is perfect similar to other electronics circuits it needs to be optimised and further tested/improved to achieve desired outcomes.
-- Stability & noise
-- Crosstalk
+- Stability, Crosstalk & Noise
+- Signal Integrity
 - Cost
 - Space
 - Reliability
