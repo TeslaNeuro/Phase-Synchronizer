@@ -5,7 +5,7 @@
 - Working on a rev.B ! I aim to create it for scalability and performance reasons !
 
 ## Project Overview
-The Phase Synchronizer is a system designed to detect, synchronize, and adjust the phase of two arbitrary out of phase signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems such as neural signal processing of ENG/ECG bio-signals. The goal for this project is simplicity and cost-effectiveness, allowing quick hardware integration for various electronics engineers.
+The Phase Synchronizer is a system designed to detect, synchronize, and adjust the phase of two arbitrary out of phase signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems such as neural signal processing of ENG/ECG bio-signals. The goal for this project is simplicity and cost-effectiveness, allowing quick hardware integration for various electronics engineers. The industry most commonly uses a PLL system to achieve this but the problem of PLLs are the use of oscillators which alter the signal frequency components down the chain making it difficult to process important information accurately.
 
 ## Typical considerations
 It’s essential to maintain stability in the system after synchronization. Oscillations, noise, or disturbances can lead to drifting of the phase relationship, so a robust feedback mechanism may be needed to keep the signals synchronized over time.
@@ -38,7 +38,7 @@ Not every implementation is perfect similar to other electronics circuits it nee
 - Space
 - Reliability
 
-At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase corretion. Thus a different approach and method may need to be considered as well.
+At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase corretion. Thus a different approach and method may need to be considered as well. In essence phase compensation and accurate detection are two seperate things you will have to alter and re-define for better results.
 
 ## Applications
 Communication Systems: Maintaining signal coherence in wireless and wired transmissions.
