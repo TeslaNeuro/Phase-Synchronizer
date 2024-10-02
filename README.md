@@ -38,6 +38,8 @@ Not every implementation is perfect similar to other electronics circuits it nee
 - Space
 - Reliability
 
+At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase corretion. Thus a different approach and method may need to be considered as well.
+
 ## Applications
 Communication Systems: Maintaining signal coherence in wireless and wired transmissions.
 Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
