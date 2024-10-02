@@ -1,5 +1,8 @@
 # Phase Synchronizer
 
+## Update
+- Adding more to this repo so keep posted !
+
 ## Project Overview
 The Phase Synchronizer is a system designed to detect, synchronize, and adjust the phase of two arbitrary out of phase signals without modifying their frequency components. This project implements phase synchronization techniques to ensure that the relative phase between signals is maintained consistently, improving stability and performance in time-dependent systems such as neural signal processing of ENG/ECG bio-signals. The goal for this project is simplicity and cost-effectiveness, allowing quick hardware integration for various electronics engineers.
 
