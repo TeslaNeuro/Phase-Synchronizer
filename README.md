@@ -56,3 +56,9 @@ This project includes firmware, software, hardware designs, and integration comp
 - **Commercial Use**: To use this project for commercial purposes, please contact the author at [arshiakeshvariasl@gmail.com] to obtain full permission rights and discuss licensing terms.
 
 See the [LICENSE](./LICENSE) file for full licensing details.
+
+## Additional Notes
+Should you want to use/modify/edit/reference/get creative inspiration from it for commercial, corporate and company needs you must gain full permission of usage and discuss licensing from myself. Otherwise, Feel free to play around with the code to make it custom to your own requirements. 
+
+Code can be improved for better error handling or detection !
+You are welcome to contact me should you have any general and technical questions.
