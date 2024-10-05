@@ -13,7 +13,7 @@ It’s essential to maintain stability in the system after synchronization. Osci
 ## Key Features
 - Phase Detection: Automatically identifies the phase difference between two signals.
 - Phase Synchronization: Aligns the phase of the second signal with the first, ensuring phase lock.
-- Phase Shift Correction: Adjusts any misaligned signals, resolving phase errors effectively.
+- Phase Shift Correction: Adjusts any misaligned signals, resolving phase errors effectively. (In reality there will be uV-mV of noise floor still when Va + Vb is combined)
 - Frequency Integrity: Maintains the frequency of both signals during synchronization.
 - Closed-loop control: Continuously monitors and corrects phase shifts to maintain stable synchronization over time.
 
