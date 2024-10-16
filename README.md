@@ -48,6 +48,7 @@ Signal Processing: Synchronizing clock signals in digital electronics for better
 
 ## Example Proof of Concept PCB Prototype Rev.A
 - As you can probably tell this is a very rushed modular pcb but still functional LOL!
+- Used BNC connectors in case working with RF frequency signals in my case i want to test low-frequency signals (100Hz)
 
 ![image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
 
