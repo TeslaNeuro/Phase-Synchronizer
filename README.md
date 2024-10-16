@@ -48,7 +48,7 @@ At higher frequencies the system becomes less reliable and needs a complete re-d
 
 ## Example Proof of Concept PCB Prototype Rev.A
 - As you can probably tell back in 2022 this was my first very rushed modular PCB but still functional LOL!
-- Used BNC connectors in case working with RF frequency signals in my case i want to test low-frequency signals (100Hz).
+- Used BNC connectors when working with RF frequency signals in my case i want to test low-frequency signals (100Hz).
 - May need a signal generator or oscilliscope with phase shift function, otherwise use passive or active filters.
 
 ![image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
