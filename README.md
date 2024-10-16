@@ -26,7 +26,7 @@ It’s essential to maintain stability in the system after synchronization. Osci
 - Digital Signal Processing (DSP): For precise phase detection and control.
 
 ## How It Works
-The system works by first detecting the phase difference between two incoming signals. A control loop then generates the necessary adjustments to bring the signals into phase alignment without changing their frequency. This is particularly useful for applications like communication systems, audio processing, biomedical ENG/ECG analysis, and time-sensitive data transmission.
+The system works by first detecting the phase difference between two incoming signals. A control loop then generates the necessary adjustments to bring the signals into phase alignment without changing their frequency. This is particularly useful for applications like telecommunication systems, audio processing, biomedical ENG/ECG analysis, and time-sensitive data transmission.
 
 Through precise time delay measurement and phase shift mapping, the system should ideally aleviate any delay errors. The process requires one signal to be phase compensated (Lead/Lag) at a time, this is highly imperative.
 
@@ -39,16 +39,17 @@ Not every implementation is perfect similar to other electronics circuits it nee
 - Space
 - Reliability
 
-At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase correction. Thus a different approach and method may need to be considered as well. In essence phase compensation and accurate detection are two seperate things you will have to alter and re-define for better results.
+At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase correction. Thus a different approach and method may need to be considered as well. In essence phase compensation and accurate detection are two seperate things you will have to alter and re-define for better results. Main problem with the current setup is the two signals must have the same frequency and amplitude which may not be ideal for most arbitrary scenarios and random signal behaviour.
 
 ## Applications
-Communication Systems: Maintaining signal coherence in wireless and wired transmissions.
-Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
-Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
+- Telecommunication Systems: Maintaining signal coherence in wireless and wired transmissions.
+- Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
+- Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
 
 ## Example Proof of Concept PCB Prototype Rev.A
-- As you can probably tell this is a very rushed modular pcb but still functional LOL!
-- Used BNC connectors in case working with RF frequency signals in my case i want to test low-frequency signals (100Hz)
+- As you can probably tell this is a very rushed modular PCB but still functional LOL!
+- Used BNC connectors in case working with RF frequency signals in my case i want to test low-frequency signals (100Hz).
+- May need a signal generator or oscilliscope with phase shift function, otherwise use passive or active filters.
 
 ![image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
 
