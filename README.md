@@ -46,7 +46,7 @@ Audio Processing: Ensuring phase-aligned audio playback from multiple sources.
 Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
 
 ## Example Proof of Concept PCB Prototype Rev.A
-- As you can probably tell this is a very rushed pcb layout but still functional LOL!
+- As you can probably tell this is a very rushed modular pcb but still functional LOL!
 
 ![image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
 
