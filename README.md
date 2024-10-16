@@ -47,7 +47,7 @@ At higher frequencies the system becomes less reliable and needs a complete re-d
 - Signal Processing: Synchronizing clock signals in digital electronics for better data integrity.
 
 ## Example Proof of Concept PCB Prototype Rev.A
-- As you can probably tell this is a very rushed modular PCB but still functional LOL!
+- As you can probably tell back in 2022 this was my first very rushed modular PCB but still functional LOL!
 - Used BNC connectors in case working with RF frequency signals in my case i want to test low-frequency signals (100Hz).
 - May need a signal generator or oscilliscope with phase shift function, otherwise use passive or active filters.
 
