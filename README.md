@@ -39,7 +39,7 @@ Not every implementation is perfect similar to other electronics circuits it nee
 - Space
 - Reliability
 
-At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase correction. Thus a different approach and method may need to be considered as well. In essence phase compensation and accurate detection are two seperate things you will have to alter and re-define for better results. Main problem with the current setup is the two signals must have the same frequency and amplitude which may not be ideal for most arbitrary scenarios and random signal behaviour.
+At higher frequencies the system becomes less reliable and needs a complete re-design to achieve better phase correction. Thus a different approach and method may need to be considered as well. In essence phase compensation and accurate detection are two seperate things you will have to alter and re-define for better results. Main problem with the current setup is the two signals must have the same frequency and amplitude which would not be ideal for most arbitrary scenarios and random signal behaviour. I suggest modelling the high-level system in MATLAB and then as you start understand the physical behaviour of the system you can always scale up.
 
 ## Applications
 - Telecommunication Systems: Maintaining signal coherence in wireless and wired transmissions.
