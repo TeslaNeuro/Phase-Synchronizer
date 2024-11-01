@@ -2,6 +2,7 @@
 
 ## Update
 - Adding more to this repo so keep posted !
+- Old code used needs tweaking and adjustments as it is a simplified version of a proof of concept script so use at your own discretion.
 - Working on a rev.B ! I aim to create it for scalability and performance reasons !
 - Goal is to make it robust to handle worst case scenarios !
 
