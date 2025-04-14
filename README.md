@@ -31,6 +31,8 @@ The system works by first detecting the phase difference between two incoming si
 
 Through precise time delay measurement and phase shift mapping, the system should ideally aleviate any delay errors. The process requires one signal to be phase compensated (Lead/Lag) at a time, this is highly imperative.
 
+![image](https://github.com/user-attachments/assets/9f18a7c6-bf8b-4e75-bf1f-e3aac7fbcd86)
+
 ## Things to consider in your application
 
 Not every implementation is perfect similar to other electronics circuits it needs to be optimised and further tested/improved to achieve desired outcomes.
