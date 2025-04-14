@@ -1,4 +1,4 @@
-# Phase Synchroniser
+# Phase Synchroniser Firmware
 
 Arduino-based system for detecting and correcting phase differences between input signals.
 
