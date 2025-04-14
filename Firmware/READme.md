@@ -13,19 +13,6 @@ The firmware dynamically detects and corrects phase differences between two inpu
 - Adaptive phase correction via digital potentiometers
 - SPI communication for precise digital control
 
-## Hardware Requirements
-
-- Arduino board
-- Digital potentiometer with SPI interface
-- Two signal inputs (1000Hz reference frequency)
-- SPI-compatible connections
-
-## Installation
-
-1. Connect digital potentiometers to SPI pins and CS pins (10 and 9)
-2. Connect signal inputs to pins 7 and 6
-3. Upload the code to your Arduino
-
 ## Usage
 
 The system automatically:
