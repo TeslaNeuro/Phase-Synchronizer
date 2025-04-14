@@ -4,7 +4,7 @@ Arduino-based system for detecting and correcting phase differences between inpu
 
 ## Description
 
-This project implements a prototype Phase Synchroniser (Rev.A) that dynamically detects and corrects phase differences between two input signals using digital potentiometers controlled via SPI.
+The firmware dynamically detects and corrects phase differences between two input signals using digital potentiometers controlled via SPI.
 
 ## Features
 
