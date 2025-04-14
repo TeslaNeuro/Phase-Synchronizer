@@ -48,10 +48,6 @@ pulse_B (6):   Input pin for signal B
 - Optimized for small phase corrections (0-5 degrees)
 - Tuned for 1000Hz signals (adjustable in code)
 
-## Contributing
-
-Currently not accepting contributions as this is a protected prototype.
-
 ## License
 
 Custom License Protected - All rights reserved by Arshia Keshvari
@@ -59,4 +55,3 @@ Custom License Protected - All rights reserved by Arshia Keshvari
 ## Author
 
 **Arshia Keshvari**
-- Date: September 28, 2024
