@@ -29,7 +29,7 @@ It’s essential to maintain stability in the system after synchronization. Osci
 ## How It Works
 The system works by first detecting the phase difference between two incoming signals. A control loop then generates the necessary adjustments to bring the signals into phase alignment without changing their frequency. This is particularly useful for applications like telecommunication systems, audio processing, biomedical ENG/ECG analysis, and time-sensitive data transmission.
 
-Through precise time delay measurement and phase shift mapping, the system should ideally aleviate any delay errors. The process requires one signal to be phase compensated (Lead/Lag) at a time, this is highly imperative.
+Through precise time delay measurement and phase shift mapping, the system should ideally alleviate any delay errors. The process requires one signal to be phase compensated (Lead/Lag) at a time, this is highly imperative.
 
 <img src="https://github.com/user-attachments/assets/9f18a7c6-bf8b-4e75-bf1f-e3aac7fbcd86" width="350x350">
 
