@@ -214,6 +214,37 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import hilbert
 
+def measure_phase_difference(signal1, signal2):
+    # Get analytic signal (complex signal with real and imaginary parts)
+    analytic_signal1 = hilbert(signal1)
+    analytic_signal2 = hilbert(signal2)
+    
+    # Extract instantaneous phase
+    phase1 = np.unwrap(np.angle(analytic_signal1))
+    phase2 = np.unwrap(np.angle(analytic_signal2))
+    
+    # Calculate phase difference
+    phase_diff = phase1 - phase2
+    
+    return phase_diff
+
+def sync_phase_fft(signal_to_adjust, reference_signal):
+    # Compute FFTs
+    fft_ref = np.fft.fft(reference_signal)
+    fft_adj = np.fft.fft(signal_to_adjust)
+    
+    # Get magnitudes and phases
+    mag_adj = np.abs(fft_adj)
+    phase_ref = np.angle(fft_ref)
+    
+    # Create new FFT using magnitude of signal_to_adjust but phase of reference
+    fft_synced = mag_adj * np.exp(1j * phase_ref)
+    
+    # Convert back to time domain
+    synced_signal = np.real(np.fft.ifft(fft_synced))
+    
+    return synced_signal
+
 # Generate example signals - a mix of frequencies with phase offsets
 fs = 1000  # Sample rate
 t = np.arange(1000) / fs
@@ -240,7 +271,7 @@ plt.title('Original Signals')
 
 plt.subplot(312)
 plt.plot(t, phase_diff, label='Phase Difference')
-plt.axhline(avg_phase, color='r', linestyle='--', 
+plt.axhline(avg_phase, color='r', linestyle='--',
            label=f'Average Diff: {avg_phase:.2f} rad')
 plt.legend()
 plt.title('Phase Difference')
