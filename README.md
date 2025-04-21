@@ -33,7 +33,7 @@ Through precise time delay measurement and phase shift mapping, the system shoul
 
 <img src="https://github.com/user-attachments/assets/9f18a7c6-bf8b-4e75-bf1f-e3aac7fbcd86" width="350x350">
 
-<img src="https://github.com/user-attachments/assets/bac17197-6d40-4e15-acd5-1145ced28a75" width="350x350">
+<img src="https://github.com/user-attachments/assets/bac17197-6d40-4e15-acd5-1145ced28a75" width="500x500">
 
 
 ## Things to consider in your application
