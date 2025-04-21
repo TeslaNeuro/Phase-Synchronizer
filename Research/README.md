@@ -1,6 +1,6 @@
 # Phase Synchronization and Measurement
 
-A simple guide to measuring phase differences between signals and achieving phase synchronization without altering frequency components.
+Some research into measuring phase differences between signals and achieving phase synchronization without altering frequency components.
 
 ## What is Phase Synchronization?
 
