@@ -10,7 +10,7 @@ Phase synchronization happens when two oscillating signals maintain a constant p
 
 ### Basic Approach
 
-1. **Extract the phase information** from each signal
+1. **Extract the phase information** from each signal (Delay Time, Whether it's Leading/Lagging)
 2. **Compare these phases** to determine their relationship
 
 ### Practical Methods
