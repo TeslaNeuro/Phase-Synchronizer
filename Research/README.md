@@ -38,7 +38,7 @@ def measure_phase_difference(signal1, signal2):
     return phase_diff
 ```
 
-#### 🌊 Wavelet Decomposition
+#### Using 🌊 Wavelet Decomposition
 
 Analyze phase across multiple frequency scales and time points.
 
