@@ -2,6 +2,25 @@
 
 Some research into measuring phase differences between signals and achieving phase synchronization without altering frequency components.
 
+---
+
+## 📚 Table of Contents
+
+- [What is Phase Synchronization](#what-is-phase-synchronization)
+- [Measuring Phase Between Two Signals](#measuring-phase-between-two-signals)
+  - [Hilbert Transform](#hilbert-transform)
+  - [Bandpass Filtering + Hilbert](#bandpass-filtering--hilbert)
+  - [Wavelet Decomposition ✅](#wavelet-decomposition-)
+- [Synchronizing Two Signals](#synchronizing-two-signals)
+- [Time Delay Method](#time-delay-method)
+- [Visualizing Phase Relationships](#visualizing-phase-relationships)
+- [Complete Example: Frequency-Independent Phase Sync](#complete-example-frequency-independent-phase-sync)
+- [Bonus: Wavelet Coherence 🔥](#bonus-wavelet-coherence-)
+- [Common Challenges](#common-challenges)
+- [Practical Tips](#practical-tips)
+
+---
+
 ## What is Phase Synchronization?
 
 Phase synchronization happens when two oscillating signals maintain a constant phase relationship with each other. This guide focuses on methods that synchronize phase while preserving the original frequency content of signals.
