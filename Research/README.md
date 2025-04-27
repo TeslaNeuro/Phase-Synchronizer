@@ -38,21 +38,6 @@ def measure_phase_difference(signal1, signal2):
     return phase_diff
 ```
 
-```python
-from scipy import signal
-
-def measure_phase_in_band(signal1, signal2, fs, freq_low, freq_high):
-    nyquist = 0.5 * fs
-    low = freq_low / nyquist
-    high = freq_high / nyquist
-    b, a = signal.butter(4, [low, high], btype='band')
-    
-    filtered1 = signal.filtfilt(b, a, signal1)
-    filtered2 = signal.filtfilt(b, a, signal2)
-    
-    return measure_phase_difference(filtered1, filtered2)
-```
-
 #### For Specific Frequency Bands
 
 If you need to analyze phase in specific frequency bands:
