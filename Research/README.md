@@ -11,7 +11,7 @@ Some research into measuring phase differences between signals and achieving pha
   - [Basic Approach](#basic-approach)
   - [Practical Methods](#practical-methods)
     - [Using the Hilbert Transform](#using-the-hilbert-transform)
-    - [Using 🌊 Wavelet Decomposition](#using-🌊-wavelet-decomposition)
+    - [Using 🌊 Wavelet Decomposition](#using-wavelet-decomposition)
     - [For Specific Frequency Bands](#for-specific-frequency-bands)
 - [Synchronizing Two Signals (Frequency-Independent)](#synchronizing-two-signals-frequency-independent)
   - [Pure Phase Shifting Method](#pure-phase-shifting-method)
@@ -20,7 +20,7 @@ Some research into measuring phase differences between signals and achieving pha
 - [Time Delay Method](#time-delay-method)
 - [Visualizing Phase Relationships](#visualizing-phase-relationships)
 - [Complete Example: Frequency-Independent Phase Sync](#complete-example-frequency-independent-phase-sync)
-- [🚀 Bonus: Wavelet Coherence 🔥](#🚀-bonus-wavelet-coherence-🔥)
+- [Bonus: Wavelet Coherence](#-bonus-wavelet-coherence-)
 - [Common Challenges](#common-challenges)
 - [Practical Tips](#practical-tips)
 
@@ -62,7 +62,7 @@ def measure_phase_difference(signal1, signal2):
     return phase_diff
 ```
 
-#### Using 🌊 Wavelet Decomposition
+#### Using Wavelet Decomposition
 
 Analyze phase across multiple frequency scales and time points.
 
@@ -360,7 +360,7 @@ plt.grid(True)
 plt.show()
 ```
 
-## 🚀 Bonus: Wavelet Coherence 🔥
+## Bonus: Wavelet Coherence
 
 - Wavelet coherence detects how strongly two signals are phase-locked at each time and frequency.
 
@@ -403,7 +403,7 @@ def plot_wavelet_coherence(coherence, scales):
     plt.show()
 ```
 
-🔥 Mini Coherence Example:
+Mini Coherence Example:
 
 ```python
 coherence = wavelet_coherence(signal1, signal2, scales=np.arange(1, 64))
