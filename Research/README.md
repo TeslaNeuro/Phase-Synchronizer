@@ -38,7 +38,7 @@ def measure_phase_difference(signal1, signal2):
     return phase_diff
 ```
 
-```
+```python
 from scipy import signal
 
 def measure_phase_in_band(signal1, signal2, fs, freq_low, freq_high):
