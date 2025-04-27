@@ -20,7 +20,7 @@ Some research into measuring phase differences between signals and achieving pha
 - [Time Delay Method](#time-delay-method)
 - [Visualizing Phase Relationships](#visualizing-phase-relationships)
 - [Complete Example: Frequency-Independent Phase Sync](#complete-example-frequency-independent-phase-sync)
-- [Bonus: Wavelet Coherence](#-bonus-wavelet-coherence-)
+- [Bonus: Wavelet Coherence](#bonus-wavelet-coherence)
 - [Common Challenges](#common-challenges)
 - [Practical Tips](#practical-tips)
 
