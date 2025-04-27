@@ -336,6 +336,16 @@ plt.grid(True)
 plt.show()
 ```
 
+## 🚀 Bonus: Wavelet Coherence 🔥
+
+- Wavelet coherence detects how strongly two signals are phase-locked at each time and frequency.
+
+#### Simple idea:
+
+- Perform CWT on both signals
+- Cross-multiply one by the conjugate of the other
+- Normalize
+
 ## Common Challenges
 
 - **Non-stationary signals**: Phase relationships may change over time
