@@ -38,6 +38,40 @@ def measure_phase_difference(signal1, signal2):
     return phase_diff
 ```
 
+#### 🌊 Wavelet Decomposition
+
+Analyze phase across multiple frequency scales and time points.
+
+```python
+import pywt
+
+def wavelet_phase(signal, wavelet_name='cmor1.5-1.0', scales=np.arange(1, 128)):
+    coefficients, _ = pywt.cwt(signal, scales, wavelet_name)
+    phases = np.angle(coefficients)
+    return phases
+```
+Phase difference:
+
+```python
+def wavelet_phase_difference(signal1, signal2, wavelet_name='cmor1.5-1.0', scales=np.arange(1, 128)):
+    phase1 = wavelet_phase(signal1, wavelet_name, scales)
+    phase2 = wavelet_phase(signal2, wavelet_name, scales)
+    
+    return phase1 - phase2
+```
+Visualize:
+```python
+import matplotlib.pyplot as plt
+
+def plot_wavelet_phase_diff(phase_diff, scales):
+    plt.figure(figsize=(10, 6))
+    plt.imshow(phase_diff, aspect='auto', cmap='twilight', extent=[0, phase_diff.shape[1], scales[-1], scales[0]])
+    plt.colorbar(label='Phase Difference (radians)')
+    plt.title('Wavelet-Based Phase Difference')
+    plt.xlabel('Time')
+    plt.ylabel('Scale')
+    plt.show()
+```
 #### For Specific Frequency Bands
 
 If you need to analyze phase in specific frequency bands:
