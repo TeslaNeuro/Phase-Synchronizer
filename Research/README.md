@@ -346,6 +346,46 @@ plt.show()
 - Cross-multiply one by the conjugate of the other
 - Normalize
 
+Quick Implementation:
+
+```python
+def wavelet_coherence(signal1, signal2, wavelet_name='cmor1.5-1.0', scales=np.arange(1, 128)):
+    coeff1, _ = pywt.cwt(signal1, scales, wavelet_name)
+    coeff2, _ = pywt.cwt(signal2, scales, wavelet_name)
+    
+    # Compute Cross-Spectrum
+    Sxy = coeff1 * np.conj(coeff2)
+    
+    # Auto-Spectra
+    Sxx = np.abs(coeff1)**2
+    Syy = np.abs(coeff2)**2
+    
+    # Smooth (very basic smoothing here)
+    coherence = np.abs(Sxy)**2 / (Sxx * Syy)
+    
+    return coherence
+```
+
+Visualize Wavelet Coherence:
+
+```python
+def plot_wavelet_coherence(coherence, scales):
+    plt.figure(figsize=(10, 6))
+    plt.imshow(coherence, aspect='auto', cmap='viridis', extent=[0, coherence.shape[1], scales[-1], scales[0]])
+    plt.colorbar(label='Coherence')
+    plt.title('Wavelet Coherence')
+    plt.xlabel('Time')
+    plt.ylabel('Scale')
+    plt.show()
+```
+
+🔥 Mini Coherence Example:
+
+```python
+coherence = wavelet_coherence(signal1, signal2, scales=np.arange(1, 64))
+plot_wavelet_coherence(coherence, np.arange(1, 64))
+```
+
 ## Common Challenges
 
 - **Non-stationary signals**: Phase relationships may change over time
