@@ -33,7 +33,7 @@ pulse_B (6):   Input pin for signal B
 ## Limitations
 
 - Optimized for small phase corrections (0-5 degrees)
-- Tuned for 1000Hz signals (adjustable in code)
+- Tuned for 100Hz signals (adjustable in code)
 
 ## License
 
