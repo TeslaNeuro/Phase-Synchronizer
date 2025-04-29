@@ -76,6 +76,6 @@ See [LICENSE](./LICENSE) for full details.
 ## Additional Notes
 Want to use, modify, or take inspiration from this for commercial/corporate use? Please get in touch for licensing.
 
-Feel free to tweak the code to fit your needs—there’s room to improve error handling and detection.
+Feel free to tweak the code to fit your needs, there’s room to improve error handling and detection.
 
 **Contact**: For general or technical questions, I’m happy to help!
