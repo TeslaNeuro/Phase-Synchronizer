@@ -59,7 +59,7 @@ At high frequencies, the current setup is less effective. A redesign may be nece
 - **Digital Systems**: Synchronized clocks for data accuracy.
 
 ## Proof of Concept – Rev. A PCB
-- My first (rushed!) modular PCB from 2022—but functional.
+- My first (rushed!) modular PCB from 2022 ! still functional.
 - Used BNC connectors, tested with low-frequency signals (~100 Hz).
 - You may need a signal generator or oscilloscope with phase-shift function. Filters (passive/active) can help too.
 
