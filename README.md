@@ -36,9 +36,11 @@ The system:
 
 *Only one signal should be phase-compensated (lead/lag) at a time.*
 
-![Diagram 1](https://github.com/user-attachments/assets/9f18a7c6-bf8b-4e75-bf1f-e3aac7fbcd86)
-![Diagram 2](https://github.com/user-attachments/assets/bac17197-6d40-4e15-acd5-1145ced28a75)
-![Diagram 3](https://github.com/user-attachments/assets/c3e8beb6-9ef1-4e9c-9389-79d385159a9f)
+<img src="https://github.com/user-attachments/assets/9f18a7c6-bf8b-4e75-bf1f-e3aac7fbcd86" width="350x350">
+
+<img src="https://github.com/user-attachments/assets/bac17197-6d40-4e15-acd5-1145ced28a75" width="500x500">
+
+<img src="https://github.com/user-attachments/assets/c3e8beb6-9ef1-4e9c-9389-79d385159a9f" width="500x500">
 
 ## Implementation Considerations
 No design is perfect; ongoing optimization is essential. Consider:
