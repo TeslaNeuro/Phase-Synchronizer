@@ -31,7 +31,7 @@ After synchronization, system stability is key. Noise or disturbances can cause 
 ## How It Works
 The system:
 1. Detects phase difference between two signals.
-2. Adjusts one to align with the other—without changing frequency.
+2. Adjusts one to align with the other, without changing frequency.
 3. Applies to telecom, audio, biomedical, and timing-sensitive systems.
 
 *Only one signal should be phase-compensated (lead/lag) at a time.*
