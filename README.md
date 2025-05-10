@@ -56,7 +56,7 @@ At high frequencies, the current setup is less effective. A redesign may be nece
 ## Applications
 - **Telecom**: Signal coherence in wireless/wired transmission.
 - **Audio**: Phase-aligned multi-source playback.
-- **Digital Systems**: Synchronized clocks for data accuracy.
+- **Biomedical**: Synchronized analog signals for data accuracy and reliability.
 
 ## Proof of Concept – Rev. A PCB
 - My first (rushed!) modular PCB from 2022 ! still functional.
