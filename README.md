@@ -3,7 +3,7 @@
 ## Update
 - I’m adding more to this repo, stay tuned!
 - The existing code is a simplified proof-of-concept and may require adjustments. Use at your discretion.
-- Working on Rev. B! It will focus on scalability and performance.
+- Working on Rev. B! Synchronize by design, adapt in real time.
 - Goal: robust enough to handle worst-case scenarios.
 
 ## Project Overview
