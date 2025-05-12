@@ -65,7 +65,7 @@ At high frequencies, the current setup is less effective. A redesign may be nece
 
 ![Prototype Image](https://github.com/user-attachments/assets/e3681b8a-cc53-40aa-9b98-96b481a9995d)
                 
-    Needs no introduction
+    The Phase Synchronizer
 
 ## License
 This project includes firmware, software, hardware designs, and integration components.
