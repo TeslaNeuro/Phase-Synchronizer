@@ -42,6 +42,7 @@ Signal B ────────┤Comparator │
 - Low-pass filter cutoff << signal frequency
 - DC output varies linearly with phase difference
 - Output = VCC × |φ|/π, where φ is phase difference in radians
+- Vout = A⋅B⋅cos(θ)
 
 #### Multiplier-Based Phase Detector
 
